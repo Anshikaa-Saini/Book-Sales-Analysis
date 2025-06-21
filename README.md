@@ -1,51 +1,66 @@
-Book Sales - Exploratory Data Analysis
+# 📚 Book Sales - Exploratory Data Analysis (EDA)
 
-This project is a basic Exploratory Data Analysis (EDA) of a book sales dataset aimed at uncovering insights into publishing trends, book ratings, sales performance, and author impact.
+This project explores a real-world dataset of book sales, aiming to uncover insights into publishing trends, author impact, ratings, and sales performance. The analysis leverages core Python libraries and visualization techniques to support decision-making for publishers, sellers, and readers.
 
----Dataset
-- Source: https://www.kaggle.com/datasets/thedevastator/books-sales-and-ratings
-- Features include:
-  - Book name, genre, author, publisher
-  - Book average rating and rating count
-  - Sale price, units sold, gross sales
-  - Language code, publishing year, author rating
+---
 
----Project Objectives
-- Practice data cleaning and exploration using basic Python libraries.
-- Analyze sales, ratings, and trends by genre, author, and year.
-- Visualize correlations and distributions with appropriate plots.
-- Develop insights that could be useful for publishers, sellers, and readers.
-  
----Workflow Summary
+## 📦 Dataset
 
---Data Cleaning
-- Removed entries with missing Book Name
-- Filtered out records with Publishing Year ≤ 1900
-- Removed duplicate records
+- **Source**: [Kaggle - Book Sales and Ratings Dataset](https://www.kaggle.com/datasets/thedevastator/books-sales-and-ratings)  
+- **Features Include**:
+  - Book Name, Genre, Author, Publisher  
+  - Average Rating, Rating Count  
+  - Sale Price, Units Sold, Gross Sales  
+  - Language Code, Publishing Year, Author Rating  
 
---EDA Visualizations
-- Histograms: Distribution of publishing years
-- Bar Plots: Number of books by genre
-- Box Plots:
-  - Book ratings count by genre
-  - Units sold by author rating
-- Scatter Plots:
-  - Sale price vs. units sold
-  - Average rating vs. rating count
-- Pie Chart: Language distribution
-- Line Plot: Units sold over publishing years
-- Pair Plot: Visual summary of feature interactions
+---
 
---Group-Based Insights
-- Top authors by total gross sales
-- Average and variance in ratings by author rating
-- Publisher-wise revenue analysis
+## 🎯 Project Objectives
 
- ---Tech Stack
-- Python libraries- Pandas, Matplotlib, Seaborn
-- Jupyter Notebook
+- Perform data cleaning and preprocessing using Python.  
+- Analyze trends in book sales, ratings, genres, and author influence.  
+- Visualize correlations and distributions using intuitive plots.  
+- Extract actionable insights relevant to publishers, marketers, and readers.  
 
----Key Takeaways
-- Genre and author rating significantly influence sales performance.
-- Language diversity is skewed towards a few dominant codes.
-- Sales trends vary significantly across years and authors.
+---
+
+## ⚙️ Workflow Summary
+
+### 🔹 Data Cleaning
+- Removed entries with missing book names  
+- Filtered out records with publishing year ≤ 1900  
+- Dropped duplicate records for cleaner analysis  
+
+### 🔹 EDA Visualizations
+- **Histograms**: Publishing year distribution  
+- **Bar Plots**: Book counts by genre  
+- **Box Plots**:  
+  - Rating counts by genre  
+  - Units sold by author rating  
+- **Scatter Plots**:  
+  - Sale price vs. units sold  
+  - Average rating vs. rating count  
+- **Pie Chart**: Language distribution  
+- **Line Plot**: Units sold over publishing years  
+- **Pair Plot**: Feature interaction overview  
+
+### 🔹 Group-Based Insights
+- Top authors based on total gross sales  
+- Rating trends by author rating (average & variance)  
+- Revenue performance analysis by publisher  
+
+---
+
+## 🛠 Tech Stack
+
+- **Languages**: Python  
+- **Libraries**: Pandas, Matplotlib, Seaborn  
+- **Environment**: Jupyter Notebook  
+
+---
+
+## 📈 Key Insights
+
+- 📌 **Genre and author rating** are strong indicators of a book’s sales performance  
+- 📌 **Language diversity** is concentrated around a few dominant language codes  
+- 📌 **Sales patterns** differ notably across authors and publishing years  
